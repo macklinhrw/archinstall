@@ -1,0 +1,36 @@
+{
+    "audio": "pulseaudio",
+    "bootloader": "grub-install",
+    "custom-commands": [
+        "cd /home/macklinrw; git clone https://github.com/macklinhrw/dotfiles.git",
+        "cp dotfiles/* /home/macklinrw/.config"
+    ],
+    "filesystem": "btrfs",
+    "harddrive": {
+        "path": "/dev/nvme0n1"
+    },
+    "hostname": "macklin-ws",
+    "kernels": [
+        "linux"
+    ],
+    "keyboard-language": "us",
+    "mirror-region": "Worldwide",
+    "nic": {
+        "NetworkManager": true
+    },
+    "ntp": true,
+    "packages": ["docker", "git", "wget", "zsh", "kitty", "variety", "caprine", "zathura", "discord",
+        "google-chrome", "xournalpp", "slack-desktop", "zoom", "nodejs", "neovim", "npm", "insomnia",
+        "flameshot", "libreoffice", "foliate", "insync"],
+    "profile": "i3",
+    "services": ["docker", "postgresql", "sshd"],
+    "superusers": {
+        "macklinrw": {
+            "!password": "mw"
+        }
+    },
+    "sys-encoding": "utf-8",
+    "sys-language": "en_US",
+    "timezone": "US/Western",
+    "users": {}
+}

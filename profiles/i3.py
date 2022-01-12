@@ -13,7 +13,7 @@ __packages__ = [
 	'xterm',
 	'lightdm-gtk-greeter',
 	'lightdm',
-	'dmenu',
+	'dmenu'
 ]
 
 

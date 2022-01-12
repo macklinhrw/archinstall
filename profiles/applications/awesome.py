@@ -3,8 +3,7 @@ import archinstall
 __packages__ = [
 	"awesome",
 	"xorg-xrandr",
-	"xterm",
-	"feh",
+	"nitrogen",
 	"slock",
 	"terminus-font",
 	"gnu-free-fonts",
