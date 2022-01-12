@@ -1,5 +1,5 @@
 {
-    "audio": "pulseaudio",
+    "audio": "pipewire",
     "bootloader": "grub-install",
     "custom-commands": [
         "cd /home/macklinrw; git clone https://github.com/macklinhrw/dotfiles.git",
